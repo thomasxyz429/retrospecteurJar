@@ -1,0 +1,274 @@
+{
+  "simplejavacalculator.Calculator": {
+    "methods": [
+      {
+        "name": "<init>",
+        "params": []
+      },
+      {
+        "name": "calculateBiImpl",
+        "params": []
+      },
+      {
+        "name": "calculateBi",
+        "params": [
+          {"param1": "simplejavacalculator.Calculator$BiOperatorModes"},
+          {"param2": "java.lang.Double"}
+        ]
+      },
+      {
+        "name": "calculateEqual",
+        "params": [{"param1": "java.lang.Double"}]
+      },
+      {
+        "name": "reset",
+        "params": []
+      },
+      {
+        "name": "calculateMono",
+        "params": [
+          {"param1": "simplejavacalculator.Calculator$MonoOperatorModes"},
+          {"param2": "java.lang.Double"}
+        ]
+      }
+    ],
+    "attributes": {
+      "mode": "simplejavacalculator.Calculator$BiOperatorModes",
+      "num1": "java.lang.Double",
+      "num2": "java.lang.Double"
+    }
+  },
+  "simplejavacalculator.UI": {
+    "methods": [
+      {
+        "name": "<init>",
+        "params": []
+      },
+      {
+        "name": "init",
+        "params": []
+      },
+      {
+        "name": "actionPerformed",
+        "params": [{"param1": "java.awt.event.ActionEvent"}]
+      },
+      {
+        "name": "parsetoBinary",
+        "params": []
+      },
+      {
+        "name": "reader",
+        "params": []
+      },
+      {
+        "name": "writer",
+        "params": [{"param1": "java.lang.Double"}]
+      }
+    ],
+    "attributes": {
+      "but": "javax.swing.JButton[]",
+      "butrate": "javax.swing.JButton",
+      "butAdd": "javax.swing.JButton",
+      "butTan": "javax.swing.JButton",
+      "butlog": "javax.swing.JButton",
+      "buttonValue": "java.lang.String[]",
+      "imageReturn": "simplejavacalculator.BufferedImageCustom",
+      "butOneDividedBy": "javax.swing.JButton",
+      "butCancel": "javax.swing.JButton",
+      "butln": "javax.swing.JButton",
+      "text": "javax.swing.JTextArea",
+      "panel": "javax.swing.JPanel",
+      "image": "javax.swing.ImageIcon",
+      "butMinus": "javax.swing.JButton",
+      "butSquareRoot": "javax.swing.JButton",
+      "butCos": "javax.swing.JButton",
+      "butBinary": "javax.swing.JButton",
+      "butEqual": "javax.swing.JButton",
+      "butDivide": "javax.swing.JButton",
+      "butabs": "javax.swing.JButton",
+      "panelSub2": "javax.swing.JPanel",
+      "panelSub3": "javax.swing.JPanel",
+      "butSin": "javax.swing.JButton",
+      "panelSub1": "javax.swing.JPanel",
+      "butMultiply": "javax.swing.JButton",
+      "panelSub6": "javax.swing.JPanel",
+      "panelSub7": "javax.swing.JPanel",
+      "panelSub4": "javax.swing.JPanel",
+      "panelSub5": "javax.swing.JPanel",
+      "butxpowerofy": "javax.swing.JButton",
+      "calc": "simplejavacalculator.Calculator",
+      "textFont": "java.awt.Font",
+      "panelSub8": "javax.swing.JPanel",
+      "butSquare": "javax.swing.JButton",
+      "frame": "javax.swing.JFrame",
+      "font": "java.awt.Font"
+    }
+  },
+  "simplejavacalculator.BufferedImageCustom": {
+    "methods": [
+      {
+        "name": "<init>",
+        "params": []
+      },
+      {
+        "name": "imageReturn",
+        "params": []
+      }
+    ],
+    "attributes": {}
+  },
+  "simplejavacalculator.Calculator$BiOperatorModes": {
+    "methods": [
+      {
+        "name": "<clinit>",
+        "params": []
+      },
+      {
+        "name": "<init>",
+        "params": [
+          {"param1": "java.lang.String"},
+          {"param2": "int"}
+        ]
+      },
+      {
+        "name": "values",
+        "params": []
+      },
+      {
+        "name": "valueOf",
+        "params": [{"param1": "java.lang.String"}]
+      }
+    ],
+    "attributes": {
+      "add": "simplejavacalculator.Calculator$BiOperatorModes",
+      "normal": "simplejavacalculator.Calculator$BiOperatorModes",
+      "minus": "simplejavacalculator.Calculator$BiOperatorModes",
+      "xpowerofy": "simplejavacalculator.Calculator$BiOperatorModes",
+      "ENUM$VALUES": "simplejavacalculator.Calculator$BiOperatorModes[]",
+      "divide": "simplejavacalculator.Calculator$BiOperatorModes",
+      "multiply": "simplejavacalculator.Calculator$BiOperatorModes"
+    }
+  },
+  "simplejavacalculator.Calculator$MonoOperatorModes": {
+    "methods": [
+      {
+        "name": "<clinit>",
+        "params": []
+      },
+      {
+        "name": "<init>",
+        "params": [
+          {"param1": "java.lang.String"},
+          {"param2": "int"}
+        ]
+      },
+      {
+        "name": "values",
+        "params": []
+      },
+      {
+        "name": "valueOf",
+        "params": [{"param1": "java.lang.String"}]
+      }
+    ],
+    "attributes": {
+      "tan": "simplejavacalculator.Calculator$MonoOperatorModes",
+      "square": "simplejavacalculator.Calculator$MonoOperatorModes",
+      "ln": "simplejavacalculator.Calculator$MonoOperatorModes",
+      "abs": "simplejavacalculator.Calculator$MonoOperatorModes",
+      "log": "simplejavacalculator.Calculator$MonoOperatorModes",
+      "rate": "simplejavacalculator.Calculator$MonoOperatorModes",
+      "ENUM$VALUES": "simplejavacalculator.Calculator$MonoOperatorModes[]",
+      "oneDividedBy": "simplejavacalculator.Calculator$MonoOperatorModes",
+      "cos": "simplejavacalculator.Calculator$MonoOperatorModes",
+      "squareRoot": "simplejavacalculator.Calculator$MonoOperatorModes",
+      "sin": "simplejavacalculator.Calculator$MonoOperatorModes"
+    }
+  },
+  "simplejavacalculatorTest.CalculatorTest": {
+    "methods": [
+      {
+        "name": "<init>",
+        "params": []
+      },
+      {
+        "name": "calculateBiNormalTest",
+        "params": []
+      },
+      {
+        "name": "calculateBiAddTest",
+        "params": []
+      },
+      {
+        "name": "calculateBiMinusTest",
+        "params": []
+      },
+      {
+        "name": "calculateBiMultiplyTest",
+        "params": []
+      },
+      {
+        "name": "calculateBiDivideTest",
+        "params": []
+      },
+      {
+        "name": "calculateEqualTest",
+        "params": []
+      },
+      {
+        "name": "resetTest",
+        "params": []
+      },
+      {
+        "name": "CalculateMonoSquareTest",
+        "params": []
+      },
+      {
+        "name": "CalculateMonoSquareRootTest",
+        "params": []
+      },
+      {
+        "name": "CalculateMonoOneDividedByTest",
+        "params": []
+      },
+      {
+        "name": "CalculateMonoSinTest",
+        "params": []
+      },
+      {
+        "name": "CalculateMonoCosTest",
+        "params": []
+      },
+      {
+        "name": "CalculateMonoTanTest",
+        "params": []
+      },
+      {
+        "name": "CalculateMonoLogTest",
+        "params": []
+      },
+      {
+        "name": "CalculateMonoRateTest",
+        "params": []
+      },
+      {
+        "name": "CalculateMonoAbsTest",
+        "params": []
+      }
+    ],
+    "attributes": {}
+  },
+  "simplejavacalculator.SimpleJavaCalculator": {
+    "methods": [
+      {
+        "name": "<init>",
+        "params": []
+      },
+      {
+        "name": "main",
+        "params": [{"param1": "java.lang.String[]"}]
+      }
+    ],
+    "attributes": {}
+  }
+}
